@@ -1,12 +1,4 @@
 
-###  http://rpcw.di.uminho.pt/2024/escola#CB8
-:CB8 rdf:type owl:Aluno ,
-              :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Guitarra
-:Guitarra rdf:type owl:Aluno ,
-              :Instrumento .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A1510
 <http://rpcw.di.uminho.pt/2024/escola#A1510> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -16,16 +8,12 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS19
-:CS19 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CB8
+:CB8 rdf:type owl:Aluno ,
               :Curso .
 
-###  http://rpcw.di.uminho.pt/2024/escola#Violoncelo
-:Violoncelo rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#Guitarra
+:Guitarra rdf:type owl:Aluno ,
               :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A32597
@@ -37,16 +25,12 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Violoncelo .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS21
-:CS21 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CS19
+:CS19 rdf:type owl:Aluno ,
               :Curso .
 
-###  http://rpcw.di.uminho.pt/2024/escola#Viola_de_Arco
-:Viola_de_Arco rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#Violoncelo
+:Violoncelo rdf:type owl:Aluno ,
               :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36539
@@ -58,16 +42,12 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB5
-:CB5 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CS21
+:CS21 rdf:type owl:Aluno ,
               :Curso .
 
-###  http://rpcw.di.uminho.pt/2024/escola#Fagote
-:Fagote rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#Viola_de_Arco
+:Viola_de_Arco rdf:type owl:Aluno ,
               :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38165
@@ -79,9 +59,13 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Fagote .
 
+###  http://rpcw.di.uminho.pt/2024/escola#CB5
+:CB5 rdf:type owl:Aluno ,
+              :Curso .
 
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#Fagote
+:Fagote rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38176
 <http://rpcw.di.uminho.pt/2024/escola#A38176> rdf:type owl:Aluno ,
@@ -92,18 +76,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB14
-:CB14 rdf:type owl:Aluno ,
-              :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Saxofone
-:Saxofone rdf:type owl:Aluno ,
-              :Instrumento .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38196
 <http://rpcw.di.uminho.pt/2024/escola#A38196> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -113,16 +85,12 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Saxofone .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS6
-:CS6 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CB14
+:CB14 rdf:type owl:Aluno ,
               :Curso .
 
-###  http://rpcw.di.uminho.pt/2024/escola#Flauta
-:Flauta rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#Saxofone
+:Saxofone rdf:type owl:Aluno ,
               :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35271
@@ -134,16 +102,12 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB17
-:CB17 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CS6
+:CS6 rdf:type owl:Aluno ,
               :Curso .
 
-###  http://rpcw.di.uminho.pt/2024/escola#Trompete
-:Trompete rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#Flauta
+:Flauta rdf:type owl:Aluno ,
               :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38193
@@ -155,16 +119,12 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Trompete .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB11
-:CB11 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CB17
+:CB17 rdf:type owl:Aluno ,
               :Curso .
 
-###  http://rpcw.di.uminho.pt/2024/escola#Orgão
-:Orgão rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#Trompete
+:Trompete rdf:type owl:Aluno ,
               :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A18141
@@ -176,16 +136,12 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Orgão .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS13
-:CS13 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CB11
+:CB11 rdf:type owl:Aluno ,
               :Curso .
 
-###  http://rpcw.di.uminho.pt/2024/escola#Piano
-:Piano rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#Orgão
+:Orgão rdf:type owl:Aluno ,
               :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38218
@@ -197,9 +153,13 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Piano .
 
+###  http://rpcw.di.uminho.pt/2024/escola#CS13
+:CS13 rdf:type owl:Aluno ,
+              :Curso .
 
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#Piano
+:Piano rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36487
 <http://rpcw.di.uminho.pt/2024/escola#A36487> rdf:type owl:Aluno ,
@@ -210,18 +170,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Trompete .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB10
-:CB10 rdf:type owl:Aluno ,
-              :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Oboé
-:Oboé rdf:type owl:Aluno ,
-              :Instrumento .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35272
 <http://rpcw.di.uminho.pt/2024/escola#A35272> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -231,16 +179,12 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Oboé .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS9
-:CS9 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CB10
+:CB10 rdf:type owl:Aluno ,
               :Curso .
 
-###  http://rpcw.di.uminho.pt/2024/escola#Harpa
-:Harpa rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#Oboé
+:Oboé rdf:type owl:Aluno ,
               :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A27589
@@ -252,9 +196,13 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Harpa .
 
+###  http://rpcw.di.uminho.pt/2024/escola#CS9
+:CS9 rdf:type owl:Aluno ,
+              :Curso .
 
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#Harpa
+:Harpa rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A25073
 <http://rpcw.di.uminho.pt/2024/escola#A25073> rdf:type owl:Aluno ,
@@ -265,18 +213,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Violoncelo .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB4
-:CB4 rdf:type owl:Aluno ,
-              :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Eufónio
-:Eufónio rdf:type owl:Aluno ,
-              :Instrumento .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38169
 <http://rpcw.di.uminho.pt/2024/escola#A38169> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -286,16 +222,12 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Eufónio .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB1
-:CB1 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CB4
+:CB4 rdf:type owl:Aluno ,
               :Curso .
 
-###  http://rpcw.di.uminho.pt/2024/escola#Clarinete
-:Clarinete rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#Eufónio
+:Eufónio rdf:type owl:Aluno ,
               :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33822
@@ -307,13 +239,13 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Clarinete .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB9
-:CB9 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CB1
+:CB1 rdf:type owl:Aluno ,
               :Curso .
+
+###  http://rpcw.di.uminho.pt/2024/escola#Clarinete
+:Clarinete rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38214
 <http://rpcw.di.uminho.pt/2024/escola#A38214> rdf:type owl:Aluno ,
@@ -324,9 +256,9 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CB9
+:CB9 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35274
 <http://rpcw.di.uminho.pt/2024/escola#A35274> rdf:type owl:Aluno ,
@@ -337,10 +269,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A29871
 <http://rpcw.di.uminho.pt/2024/escola#A29871> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -349,18 +277,6 @@
                                              :hasCurso :CB14 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Saxofone .
-
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB16
-:CB16 rdf:type owl:Aluno ,
-              :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Trompa
-:Trompa rdf:type owl:Aluno ,
-              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38215
 <http://rpcw.di.uminho.pt/2024/escola#A38215> rdf:type owl:Aluno ,
@@ -371,9 +287,13 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Trompa .
 
+###  http://rpcw.di.uminho.pt/2024/escola#CB16
+:CB16 rdf:type owl:Aluno ,
+              :Curso .
 
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#Trompa
+:Trompa rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38117
 <http://rpcw.di.uminho.pt/2024/escola#A38117> rdf:type owl:Aluno ,
@@ -384,18 +304,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Violoncelo .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS2
-:CS2 rdf:type owl:Aluno ,
-              :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Contrabaixo
-:Contrabaixo rdf:type owl:Aluno ,
-              :Instrumento .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35277
 <http://rpcw.di.uminho.pt/2024/escola#A35277> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -405,13 +313,13 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Contrabaixo .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB2
-:CB2 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CS2
+:CS2 rdf:type owl:Aluno ,
               :Curso .
+
+###  http://rpcw.di.uminho.pt/2024/escola#Contrabaixo
+:Contrabaixo rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35278
 <http://rpcw.di.uminho.pt/2024/escola#A35278> rdf:type owl:Aluno ,
@@ -422,17 +330,9 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Contrabaixo .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB22
-:CB22 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CB2
+:CB2 rdf:type owl:Aluno ,
               :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Bandolim
-:Bandolim rdf:type owl:Aluno ,
-              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38138
 <http://rpcw.di.uminho.pt/2024/escola#A38138> rdf:type owl:Aluno ,
@@ -443,9 +343,13 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Bandolim .
 
+###  http://rpcw.di.uminho.pt/2024/escola#CB22
+:CB22 rdf:type owl:Aluno ,
+              :Curso .
 
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#Bandolim
+:Bandolim rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35280
 <http://rpcw.di.uminho.pt/2024/escola#A35280> rdf:type owl:Aluno ,
@@ -456,10 +360,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33057
 <http://rpcw.di.uminho.pt/2024/escola#A33057> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -468,18 +368,6 @@
                                              :hasCurso :CB8 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Guitarra .
-
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB3
-:CB3 rdf:type owl:Aluno ,
-              :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Corne_Inglês
-:Corne_Inglês rdf:type owl:Aluno ,
-              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38143
 <http://rpcw.di.uminho.pt/2024/escola#A38143> rdf:type owl:Aluno ,
@@ -490,9 +378,13 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Corne_Inglês .
 
+###  http://rpcw.di.uminho.pt/2024/escola#CB3
+:CB3 rdf:type owl:Aluno ,
+              :Curso .
 
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#Corne_Inglês
+:Corne_Inglês rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30166
 <http://rpcw.di.uminho.pt/2024/escola#A30166> rdf:type owl:Aluno ,
@@ -503,10 +395,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Trompete .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36971
 <http://rpcw.di.uminho.pt/2024/escola#A36971> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -515,10 +403,6 @@
                                              :hasCurso :CB22 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38132
 <http://rpcw.di.uminho.pt/2024/escola#A38132> rdf:type owl:Aluno ,
@@ -529,18 +413,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS7
-:CS7 rdf:type owl:Aluno ,
-              :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Fliscorne
-:Fliscorne rdf:type owl:Aluno ,
-              :Instrumento .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33140
 <http://rpcw.di.uminho.pt/2024/escola#A33140> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -550,13 +422,13 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Fliscorne .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB7
-:CB7 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CS7
+:CS7 rdf:type owl:Aluno ,
               :Curso .
+
+###  http://rpcw.di.uminho.pt/2024/escola#Fliscorne
+:Fliscorne rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33141
 <http://rpcw.di.uminho.pt/2024/escola#A33141> rdf:type owl:Aluno ,
@@ -567,9 +439,9 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Fliscorne .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CB7
+:CB7 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33291
 <http://rpcw.di.uminho.pt/2024/escola#A33291> rdf:type owl:Aluno ,
@@ -580,14 +452,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS1
-:CS1 rdf:type owl:Aluno ,
-              :Curso .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33142
 <http://rpcw.di.uminho.pt/2024/escola#A33142> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -597,9 +461,9 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Clarinete .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CS1
+:CS1 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A20044
 <http://rpcw.di.uminho.pt/2024/escola#A20044> rdf:type owl:Aluno ,
@@ -610,14 +474,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB13
-:CB13 rdf:type owl:Aluno ,
-              :Curso .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35283
 <http://rpcw.di.uminho.pt/2024/escola#A35283> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -627,12 +483,8 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Piano .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS8
-:CS8 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CB13
+:CB13 rdf:type owl:Aluno ,
               :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35284
@@ -644,12 +496,8 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB6
-:CB6 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CS8
+:CS8 rdf:type owl:Aluno ,
               :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38156
@@ -661,9 +509,9 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CB6
+:CB6 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35285
 <http://rpcw.di.uminho.pt/2024/escola#A35285> rdf:type owl:Aluno ,
@@ -674,18 +522,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB20
-:CB20 rdf:type owl:Aluno ,
-              :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Violino
-:Violino rdf:type owl:Aluno ,
-              :Instrumento .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36422
 <http://rpcw.di.uminho.pt/2024/escola#A36422> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -695,9 +531,13 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Violino .
 
+###  http://rpcw.di.uminho.pt/2024/escola#CB20
+:CB20 rdf:type owl:Aluno ,
+              :Curso .
 
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#Violino
+:Violino rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33143
 <http://rpcw.di.uminho.pt/2024/escola#A33143> rdf:type owl:Aluno ,
@@ -708,14 +548,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Corne_Inglês .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB21
-:CB21 rdf:type owl:Aluno ,
-              :Curso .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33145
 <http://rpcw.di.uminho.pt/2024/escola#A33145> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -725,17 +557,9 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS18
-:CS18 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CB21
+:CB21 rdf:type owl:Aluno ,
               :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Tuba
-:Tuba rdf:type owl:Aluno ,
-              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33146
 <http://rpcw.di.uminho.pt/2024/escola#A33146> rdf:type owl:Aluno ,
@@ -746,16 +570,12 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Tuba .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB15
-:CB15 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CS18
+:CS18 rdf:type owl:Aluno ,
               :Curso .
 
-###  http://rpcw.di.uminho.pt/2024/escola#Trombone
-:Trombone rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#Tuba
+:Tuba rdf:type owl:Aluno ,
               :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33148
@@ -767,9 +587,13 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Trombone .
 
+###  http://rpcw.di.uminho.pt/2024/escola#CB15
+:CB15 rdf:type owl:Aluno ,
+              :Curso .
 
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#Trombone
+:Trombone rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38124
 <http://rpcw.di.uminho.pt/2024/escola#A38124> rdf:type owl:Aluno ,
@@ -780,14 +604,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Bandolim .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB18
-:CB18 rdf:type owl:Aluno ,
-              :Curso .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30176
 <http://rpcw.di.uminho.pt/2024/escola#A30176> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -797,9 +613,9 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Tuba .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CB18
+:CB18 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35808
 <http://rpcw.di.uminho.pt/2024/escola#A35808> rdf:type owl:Aluno ,
@@ -810,14 +626,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Fliscorne .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS16
-:CS16 rdf:type owl:Aluno ,
-              :Curso .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38126
 <http://rpcw.di.uminho.pt/2024/escola#A38126> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -827,9 +635,9 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Trompa .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CS16
+:CS16 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33689
 <http://rpcw.di.uminho.pt/2024/escola#A33689> rdf:type owl:Aluno ,
@@ -840,10 +648,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Contrabaixo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38125
 <http://rpcw.di.uminho.pt/2024/escola#A38125> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -852,14 +656,6 @@
                                              :hasCurso :CS8 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Guitarra .
-
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS14
-:CS14 rdf:type owl:Aluno ,
-              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A24654
 <http://rpcw.di.uminho.pt/2024/escola#A24654> rdf:type owl:Aluno ,
@@ -870,12 +666,8 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Saxofone .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB19
-:CB19 rdf:type owl:Aluno ,
+###  http://rpcw.di.uminho.pt/2024/escola#CS14
+:CS14 rdf:type owl:Aluno ,
               :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A20021
@@ -887,9 +679,9 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Violoncelo .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CB19
+:CB19 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35291
 <http://rpcw.di.uminho.pt/2024/escola#A35291> rdf:type owl:Aluno ,
@@ -900,14 +692,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Trombone .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS3
-:CS3 rdf:type owl:Aluno ,
-              :Curso .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A34640
 <http://rpcw.di.uminho.pt/2024/escola#A34640> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -917,9 +701,9 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Corne_Inglês .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CS3
+:CS3 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38207
 <http://rpcw.di.uminho.pt/2024/escola#A38207> rdf:type owl:Aluno ,
@@ -930,14 +714,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Contrabaixo .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS10
-:CS10 rdf:type owl:Aluno ,
-              :Curso .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A32010
 <http://rpcw.di.uminho.pt/2024/escola#A32010> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -947,9 +723,9 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Oboé .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CS10
+:CS10 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35052
 <http://rpcw.di.uminho.pt/2024/escola#A35052> rdf:type owl:Aluno ,
@@ -960,10 +736,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Contrabaixo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35440
 <http://rpcw.di.uminho.pt/2024/escola#A35440> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -972,14 +744,6 @@
                                              :hasCurso :CS18 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Tuba .
-
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS5
-:CS5 rdf:type owl:Aluno ,
-              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A32648
 <http://rpcw.di.uminho.pt/2024/escola#A32648> rdf:type owl:Aluno ,
@@ -990,9 +754,9 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CS5
+:CS5 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33152
 <http://rpcw.di.uminho.pt/2024/escola#A33152> rdf:type owl:Aluno ,
@@ -1003,18 +767,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Violino .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS12
-:CS12 rdf:type owl:Aluno ,
-              :Curso .
-
-###  http://rpcw.di.uminho.pt/2024/escola#Percussão
-:Percussão rdf:type owl:Aluno ,
-              :Instrumento .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38211
 <http://rpcw.di.uminho.pt/2024/escola#A38211> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1024,9 +776,13 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Percussão .
 
+###  http://rpcw.di.uminho.pt/2024/escola#CS12
+:CS12 rdf:type owl:Aluno ,
+              :Curso .
 
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#Percussão
+:Percussão rdf:type owl:Aluno ,
+              :Instrumento .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38210
 <http://rpcw.di.uminho.pt/2024/escola#A38210> rdf:type owl:Aluno ,
@@ -1037,10 +793,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A22854
 <http://rpcw.di.uminho.pt/2024/escola#A22854> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1049,10 +801,6 @@
                                              :hasCurso :CB5 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Fagote .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35293
 <http://rpcw.di.uminho.pt/2024/escola#A35293> rdf:type owl:Aluno ,
@@ -1063,10 +811,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35294
 <http://rpcw.di.uminho.pt/2024/escola#A35294> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1075,10 +819,6 @@
                                              :hasCurso :CB20 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Violino .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38166
 <http://rpcw.di.uminho.pt/2024/escola#A38166> rdf:type owl:Aluno ,
@@ -1089,10 +829,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Violoncelo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38164
 <http://rpcw.di.uminho.pt/2024/escola#A38164> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1101,14 +837,6 @@
                                              :hasCurso :CS8 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Guitarra .
-
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS22
-:CS22 rdf:type owl:Aluno ,
-              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38167
 <http://rpcw.di.uminho.pt/2024/escola#A38167> rdf:type owl:Aluno ,
@@ -1119,9 +847,9 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Bandolim .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CS22
+:CS22 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33155
 <http://rpcw.di.uminho.pt/2024/escola#A33155> rdf:type owl:Aluno ,
@@ -1132,10 +860,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Clarinete .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35298
 <http://rpcw.di.uminho.pt/2024/escola#A35298> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1144,14 +868,6 @@
                                              :hasCurso :CB3 ;
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Corne_Inglês .
-
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS15
-:CS15 rdf:type owl:Aluno ,
-              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38190
 <http://rpcw.di.uminho.pt/2024/escola#A38190> rdf:type owl:Aluno ,
@@ -1162,9 +878,9 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Trombone .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CS15
+:CS15 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35300
 <http://rpcw.di.uminho.pt/2024/escola#A35300> rdf:type owl:Aluno ,
@@ -1175,10 +891,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Oboé .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30305
 <http://rpcw.di.uminho.pt/2024/escola#A30305> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1187,10 +899,6 @@
                                              :hasCurso :CS19 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Violoncelo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36757
 <http://rpcw.di.uminho.pt/2024/escola#A36757> rdf:type owl:Aluno ,
@@ -1201,10 +909,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33157
 <http://rpcw.di.uminho.pt/2024/escola#A33157> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1213,10 +917,6 @@
                                              :hasCurso :CS1 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Clarinete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A27608
 <http://rpcw.di.uminho.pt/2024/escola#A27608> rdf:type owl:Aluno ,
@@ -1227,10 +927,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Trombone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35302
 <http://rpcw.di.uminho.pt/2024/escola#A35302> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1239,10 +935,6 @@
                                              :hasCurso :CB11 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Orgão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33158
 <http://rpcw.di.uminho.pt/2024/escola#A33158> rdf:type owl:Aluno ,
@@ -1253,10 +945,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35465
 <http://rpcw.di.uminho.pt/2024/escola#A35465> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1265,10 +953,6 @@
                                              :hasCurso :CB19 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Violoncelo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33858
 <http://rpcw.di.uminho.pt/2024/escola#A33858> rdf:type owl:Aluno ,
@@ -1279,10 +963,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Piano .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A26737
 <http://rpcw.di.uminho.pt/2024/escola#A26737> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1291,10 +971,6 @@
                                              :hasCurso :CS16 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Trompa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30187
 <http://rpcw.di.uminho.pt/2024/escola#A30187> rdf:type owl:Aluno ,
@@ -1305,10 +981,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35303
 <http://rpcw.di.uminho.pt/2024/escola#A35303> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1317,10 +989,6 @@
                                              :hasCurso :CB1 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Clarinete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36445
 <http://rpcw.di.uminho.pt/2024/escola#A36445> rdf:type owl:Aluno ,
@@ -1331,10 +999,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Bandolim .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38595
 <http://rpcw.di.uminho.pt/2024/escola#A38595> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1343,10 +1007,6 @@
                                              :hasCurso :CB2 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Contrabaixo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38187
 <http://rpcw.di.uminho.pt/2024/escola#A38187> rdf:type owl:Aluno ,
@@ -1357,10 +1017,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Oboé .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36424
 <http://rpcw.di.uminho.pt/2024/escola#A36424> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1369,10 +1025,6 @@
                                              :hasCurso :CB11 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Orgão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35308
 <http://rpcw.di.uminho.pt/2024/escola#A35308> rdf:type owl:Aluno ,
@@ -1383,10 +1035,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35443
 <http://rpcw.di.uminho.pt/2024/escola#A35443> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1395,10 +1043,6 @@
                                              :hasCurso :CS22 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A27616
 <http://rpcw.di.uminho.pt/2024/escola#A27616> rdf:type owl:Aluno ,
@@ -1409,10 +1053,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38163
 <http://rpcw.di.uminho.pt/2024/escola#A38163> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1421,10 +1061,6 @@
                                              :hasCurso :CB2 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Contrabaixo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39288
 <http://rpcw.di.uminho.pt/2024/escola#A39288> rdf:type owl:Aluno ,
@@ -1435,10 +1071,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Trombone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33162
 <http://rpcw.di.uminho.pt/2024/escola#A33162> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1447,10 +1079,6 @@
                                              :hasCurso :CS5 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Fagote .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35311
 <http://rpcw.di.uminho.pt/2024/escola#A35311> rdf:type owl:Aluno ,
@@ -1461,10 +1089,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Bandolim .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39508
 <http://rpcw.di.uminho.pt/2024/escola#A39508> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1473,10 +1097,6 @@
                                              :hasCurso :CS5 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Fagote .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33163
 <http://rpcw.di.uminho.pt/2024/escola#A33163> rdf:type owl:Aluno ,
@@ -1487,10 +1107,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38174
 <http://rpcw.di.uminho.pt/2024/escola#A38174> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1499,10 +1115,6 @@
                                              :hasCurso :CS12 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Percussão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33165
 <http://rpcw.di.uminho.pt/2024/escola#A33165> rdf:type owl:Aluno ,
@@ -1513,10 +1125,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Piano .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35312
 <http://rpcw.di.uminho.pt/2024/escola#A35312> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1525,10 +1133,6 @@
                                              :hasCurso :CS13 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Piano .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38185
 <http://rpcw.di.uminho.pt/2024/escola#A38185> rdf:type owl:Aluno ,
@@ -1539,10 +1143,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39503
 <http://rpcw.di.uminho.pt/2024/escola#A39503> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1551,10 +1151,6 @@
                                              :hasCurso :CS10 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Oboé .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36758
 <http://rpcw.di.uminho.pt/2024/escola#A36758> rdf:type owl:Aluno ,
@@ -1565,10 +1161,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38197
 <http://rpcw.di.uminho.pt/2024/escola#A38197> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1577,10 +1169,6 @@
                                              :hasCurso :CS8 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Guitarra .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33272
 <http://rpcw.di.uminho.pt/2024/escola#A33272> rdf:type owl:Aluno ,
@@ -1591,10 +1179,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35315
 <http://rpcw.di.uminho.pt/2024/escola#A35315> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1603,10 +1187,6 @@
                                              :hasCurso :CS6 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Flauta .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38202
 <http://rpcw.di.uminho.pt/2024/escola#A38202> rdf:type owl:Aluno ,
@@ -1617,10 +1197,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35316
 <http://rpcw.di.uminho.pt/2024/escola#A35316> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1629,10 +1205,6 @@
                                              :hasCurso :CB15 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Trombone .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35395
 <http://rpcw.di.uminho.pt/2024/escola#A35395> rdf:type owl:Aluno ,
@@ -1643,10 +1215,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Violino .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38204
 <http://rpcw.di.uminho.pt/2024/escola#A38204> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1655,10 +1223,6 @@
                                              :hasCurso :CB7 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Fliscorne .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A26208
 <http://rpcw.di.uminho.pt/2024/escola#A26208> rdf:type owl:Aluno ,
@@ -1669,10 +1233,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Bandolim .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33703
 <http://rpcw.di.uminho.pt/2024/escola#A33703> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1681,14 +1241,6 @@
                                              :hasCurso :CB22 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS17
-:CS17 rdf:type owl:Aluno ,
-              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38134
 <http://rpcw.di.uminho.pt/2024/escola#A38134> rdf:type owl:Aluno ,
@@ -1699,9 +1251,9 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Trompete .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CS17
+:CS17 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35318
 <http://rpcw.di.uminho.pt/2024/escola#A35318> rdf:type owl:Aluno ,
@@ -1712,10 +1264,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Saxofone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33168
 <http://rpcw.di.uminho.pt/2024/escola#A33168> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1724,10 +1272,6 @@
                                              :hasCurso :CB9 ;
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Harpa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35319
 <http://rpcw.di.uminho.pt/2024/escola#A35319> rdf:type owl:Aluno ,
@@ -1738,10 +1282,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Violoncelo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35320
 <http://rpcw.di.uminho.pt/2024/escola#A35320> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1750,10 +1290,6 @@
                                              :hasCurso :CB19 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Violoncelo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A32753
 <http://rpcw.di.uminho.pt/2024/escola#A32753> rdf:type owl:Aluno ,
@@ -1764,10 +1300,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38180
 <http://rpcw.di.uminho.pt/2024/escola#A38180> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1776,10 +1308,6 @@
                                              :hasCurso :CS7 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Fliscorne .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35321
 <http://rpcw.di.uminho.pt/2024/escola#A35321> rdf:type owl:Aluno ,
@@ -1790,10 +1318,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35322
 <http://rpcw.di.uminho.pt/2024/escola#A35322> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1802,10 +1326,6 @@
                                              :hasCurso :CS9 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Harpa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38133
 <http://rpcw.di.uminho.pt/2024/escola#A38133> rdf:type owl:Aluno ,
@@ -1816,10 +1336,6 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Trombone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30201
 <http://rpcw.di.uminho.pt/2024/escola#A30201> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1828,10 +1344,6 @@
                                              :hasCurso :CS7 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Fliscorne .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38123
 <http://rpcw.di.uminho.pt/2024/escola#A38123> rdf:type owl:Aluno ,
@@ -1842,10 +1354,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Corne_Inglês .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A34935
 <http://rpcw.di.uminho.pt/2024/escola#A34935> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1854,10 +1362,6 @@
                                              :hasCurso :CS1 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Clarinete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35323
 <http://rpcw.di.uminho.pt/2024/escola#A35323> rdf:type owl:Aluno ,
@@ -1868,10 +1372,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Eufónio .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33172
 <http://rpcw.di.uminho.pt/2024/escola#A33172> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1880,10 +1380,6 @@
                                              :hasCurso :CB21 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Viola_de_Arco .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38191
 <http://rpcw.di.uminho.pt/2024/escola#A38191> rdf:type owl:Aluno ,
@@ -1894,10 +1390,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38186
 <http://rpcw.di.uminho.pt/2024/escola#A38186> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1906,10 +1398,6 @@
                                              :hasCurso :CS22 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39750
 <http://rpcw.di.uminho.pt/2024/escola#A39750> rdf:type owl:Aluno ,
@@ -1920,10 +1408,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Contrabaixo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A22662
 <http://rpcw.di.uminho.pt/2024/escola#A22662> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1932,10 +1416,6 @@
                                              :hasCurso :CS12 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Percussão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35325
 <http://rpcw.di.uminho.pt/2024/escola#A35325> rdf:type owl:Aluno ,
@@ -1946,10 +1426,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A17855
 <http://rpcw.di.uminho.pt/2024/escola#A17855> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1958,10 +1434,6 @@
                                              :hasCurso :CS5 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Fagote .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38175
 <http://rpcw.di.uminho.pt/2024/escola#A38175> rdf:type owl:Aluno ,
@@ -1972,14 +1444,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS20
-:CS20 rdf:type owl:Aluno ,
-              :Curso .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33173
 <http://rpcw.di.uminho.pt/2024/escola#A33173> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -1989,9 +1453,9 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Violino .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CS20
+:CS20 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39622
 <http://rpcw.di.uminho.pt/2024/escola#A39622> rdf:type owl:Aluno ,
@@ -2002,10 +1466,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Violoncelo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33175
 <http://rpcw.di.uminho.pt/2024/escola#A33175> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2014,10 +1474,6 @@
                                              :hasCurso :CB22 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A18938
 <http://rpcw.di.uminho.pt/2024/escola#A18938> rdf:type owl:Aluno ,
@@ -2028,10 +1484,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Piano .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33176
 <http://rpcw.di.uminho.pt/2024/escola#A33176> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2040,10 +1492,6 @@
                                              :hasCurso :CS20 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Violino .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35832
 <http://rpcw.di.uminho.pt/2024/escola#A35832> rdf:type owl:Aluno ,
@@ -2054,10 +1502,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Percussão .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38170
 <http://rpcw.di.uminho.pt/2024/escola#A38170> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2066,10 +1510,6 @@
                                              :hasCurso :CS17 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Trompete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36425
 <http://rpcw.di.uminho.pt/2024/escola#A36425> rdf:type owl:Aluno ,
@@ -2080,10 +1520,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Violino .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38212
 <http://rpcw.di.uminho.pt/2024/escola#A38212> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2092,10 +1528,6 @@
                                              :hasCurso :CB4 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Eufónio .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38220
 <http://rpcw.di.uminho.pt/2024/escola#A38220> rdf:type owl:Aluno ,
@@ -2106,10 +1538,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38199
 <http://rpcw.di.uminho.pt/2024/escola#A38199> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2118,10 +1546,6 @@
                                              :hasCurso :CB5 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Fagote .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38198
 <http://rpcw.di.uminho.pt/2024/escola#A38198> rdf:type owl:Aluno ,
@@ -2132,10 +1556,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Saxofone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35328
 <http://rpcw.di.uminho.pt/2024/escola#A35328> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2144,10 +1564,6 @@
                                              :hasCurso :CB19 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Violoncelo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38157
 <http://rpcw.di.uminho.pt/2024/escola#A38157> rdf:type owl:Aluno ,
@@ -2158,10 +1574,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A20464
 <http://rpcw.di.uminho.pt/2024/escola#A20464> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2170,10 +1582,6 @@
                                              :hasCurso :CS21 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Viola_de_Arco .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38139
 <http://rpcw.di.uminho.pt/2024/escola#A38139> rdf:type owl:Aluno ,
@@ -2184,10 +1592,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Fliscorne .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35330
 <http://rpcw.di.uminho.pt/2024/escola#A35330> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2196,10 +1600,6 @@
                                              :hasCurso :CS13 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Piano .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A16409
 <http://rpcw.di.uminho.pt/2024/escola#A16409> rdf:type owl:Aluno ,
@@ -2210,10 +1610,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Oboé .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33709
 <http://rpcw.di.uminho.pt/2024/escola#A33709> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2222,10 +1618,6 @@
                                              :hasCurso :CS12 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Percussão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30209
 <http://rpcw.di.uminho.pt/2024/escola#A30209> rdf:type owl:Aluno ,
@@ -2236,10 +1628,6 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Trombone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A21008
 <http://rpcw.di.uminho.pt/2024/escola#A21008> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2248,10 +1636,6 @@
                                              :hasCurso :CB2 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Contrabaixo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35331
 <http://rpcw.di.uminho.pt/2024/escola#A35331> rdf:type owl:Aluno ,
@@ -2262,10 +1646,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Bandolim .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38189
 <http://rpcw.di.uminho.pt/2024/escola#A38189> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2274,14 +1654,6 @@
                                              :hasCurso :CB3 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Corne_Inglês .
-
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS11
-:CS11 rdf:type owl:Aluno ,
-              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A19705
 <http://rpcw.di.uminho.pt/2024/escola#A19705> rdf:type owl:Aluno ,
@@ -2292,9 +1664,9 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Orgão .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CS11
+:CS11 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30211
 <http://rpcw.di.uminho.pt/2024/escola#A30211> rdf:type owl:Aluno ,
@@ -2305,10 +1677,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30212
 <http://rpcw.di.uminho.pt/2024/escola#A30212> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2317,10 +1685,6 @@
                                              :hasCurso :CB10 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Oboé .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36960
 <http://rpcw.di.uminho.pt/2024/escola#A36960> rdf:type owl:Aluno ,
@@ -2331,10 +1695,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Trompete .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A34434
 <http://rpcw.di.uminho.pt/2024/escola#A34434> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2343,10 +1703,6 @@
                                              :hasCurso :CS13 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Piano .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35332
 <http://rpcw.di.uminho.pt/2024/escola#A35332> rdf:type owl:Aluno ,
@@ -2357,10 +1713,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Piano .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39506
 <http://rpcw.di.uminho.pt/2024/escola#A39506> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2369,10 +1721,6 @@
                                              :hasCurso :CB18 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Tuba .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36761
 <http://rpcw.di.uminho.pt/2024/escola#A36761> rdf:type owl:Aluno ,
@@ -2383,14 +1731,6 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Saxofone .
 
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CB12
-:CB12 rdf:type owl:Aluno ,
-              :Curso .
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38224
 <http://rpcw.di.uminho.pt/2024/escola#A38224> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2400,9 +1740,9 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Percussão .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CB12
+:CB12 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35333
 <http://rpcw.di.uminho.pt/2024/escola#A35333> rdf:type owl:Aluno ,
@@ -2413,10 +1753,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Violoncelo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A23916
 <http://rpcw.di.uminho.pt/2024/escola#A23916> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2425,10 +1761,6 @@
                                              :hasCurso :CB3 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Corne_Inglês .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38222
 <http://rpcw.di.uminho.pt/2024/escola#A38222> rdf:type owl:Aluno ,
@@ -2439,10 +1771,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Trompete .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38205
 <http://rpcw.di.uminho.pt/2024/escola#A38205> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2451,10 +1779,6 @@
                                              :hasCurso :CB3 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Corne_Inglês .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A27629
 <http://rpcw.di.uminho.pt/2024/escola#A27629> rdf:type owl:Aluno ,
@@ -2465,10 +1789,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Bandolim .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38206
 <http://rpcw.di.uminho.pt/2024/escola#A38206> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2477,10 +1797,6 @@
                                              :hasCurso :CS9 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Harpa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35398
 <http://rpcw.di.uminho.pt/2024/escola#A35398> rdf:type owl:Aluno ,
@@ -2491,10 +1807,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A32480
 <http://rpcw.di.uminho.pt/2024/escola#A32480> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2503,10 +1815,6 @@
                                              :hasCurso :CB10 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Oboé .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30213
 <http://rpcw.di.uminho.pt/2024/escola#A30213> rdf:type owl:Aluno ,
@@ -2517,10 +1825,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Trompa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A22670
 <http://rpcw.di.uminho.pt/2024/escola#A22670> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2529,10 +1833,6 @@
                                              :hasCurso :CB1 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Clarinete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33182
 <http://rpcw.di.uminho.pt/2024/escola#A33182> rdf:type owl:Aluno ,
@@ -2543,10 +1843,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Tuba .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A28722
 <http://rpcw.di.uminho.pt/2024/escola#A28722> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2555,10 +1851,6 @@
                                              :hasCurso :CS3 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Corne_Inglês .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38121
 <http://rpcw.di.uminho.pt/2024/escola#A38121> rdf:type owl:Aluno ,
@@ -2569,10 +1861,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35334
 <http://rpcw.di.uminho.pt/2024/escola#A35334> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2581,10 +1869,6 @@
                                              :hasCurso :CB19 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Violoncelo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38136
 <http://rpcw.di.uminho.pt/2024/escola#A38136> rdf:type owl:Aluno ,
@@ -2595,10 +1879,6 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35335
 <http://rpcw.di.uminho.pt/2024/escola#A35335> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2607,10 +1887,6 @@
                                              :hasCurso :CB1 ;
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Clarinete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35337
 <http://rpcw.di.uminho.pt/2024/escola#A35337> rdf:type owl:Aluno ,
@@ -2621,10 +1897,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38142
 <http://rpcw.di.uminho.pt/2024/escola#A38142> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2633,10 +1905,6 @@
                                              :hasCurso :CB21 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Viola_de_Arco .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38140
 <http://rpcw.di.uminho.pt/2024/escola#A38140> rdf:type owl:Aluno ,
@@ -2647,10 +1915,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Saxofone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38137
 <http://rpcw.di.uminho.pt/2024/escola#A38137> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2659,14 +1923,6 @@
                                              :hasCurso :CB5 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Fagote .
-
-
-
-
-
-###  http://rpcw.di.uminho.pt/2024/escola#CS4
-:CS4 rdf:type owl:Aluno ,
-              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38128
 <http://rpcw.di.uminho.pt/2024/escola#A38128> rdf:type owl:Aluno ,
@@ -2677,9 +1933,9 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Eufónio .
 
-
-
-
+###  http://rpcw.di.uminho.pt/2024/escola#CS4
+:CS4 rdf:type owl:Aluno ,
+              :Curso .
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30214
 <http://rpcw.di.uminho.pt/2024/escola#A30214> rdf:type owl:Aluno ,
@@ -2690,10 +1946,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Percussão .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A23508
 <http://rpcw.di.uminho.pt/2024/escola#A23508> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2702,10 +1954,6 @@
                                              :hasCurso :CB15 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Trombone .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38155
 <http://rpcw.di.uminho.pt/2024/escola#A38155> rdf:type owl:Aluno ,
@@ -2716,10 +1964,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Percussão .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35843
 <http://rpcw.di.uminho.pt/2024/escola#A35843> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2728,10 +1972,6 @@
                                              :hasCurso :CS19 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Violoncelo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38150
 <http://rpcw.di.uminho.pt/2024/escola#A38150> rdf:type owl:Aluno ,
@@ -2742,10 +1982,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A34035
 <http://rpcw.di.uminho.pt/2024/escola#A34035> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2754,10 +1990,6 @@
                                              :hasCurso :CS9 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Harpa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A24839
 <http://rpcw.di.uminho.pt/2024/escola#A24839> rdf:type owl:Aluno ,
@@ -2768,10 +2000,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35339
 <http://rpcw.di.uminho.pt/2024/escola#A35339> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2780,10 +2008,6 @@
                                              :hasCurso :CS2 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Contrabaixo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35340
 <http://rpcw.di.uminho.pt/2024/escola#A35340> rdf:type owl:Aluno ,
@@ -2794,10 +2018,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33650
 <http://rpcw.di.uminho.pt/2024/escola#A33650> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2806,10 +2026,6 @@
                                              :hasCurso :CB16 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Trompa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35342
 <http://rpcw.di.uminho.pt/2024/escola#A35342> rdf:type owl:Aluno ,
@@ -2820,10 +2036,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Saxofone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38223
 <http://rpcw.di.uminho.pt/2024/escola#A38223> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2832,10 +2044,6 @@
                                              :hasCurso :CB3 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Corne_Inglês .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39341
 <http://rpcw.di.uminho.pt/2024/escola#A39341> rdf:type owl:Aluno ,
@@ -2846,10 +2054,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39408
 <http://rpcw.di.uminho.pt/2024/escola#A39408> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2858,10 +2062,6 @@
                                              :hasCurso :CB7 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Fliscorne .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33186
 <http://rpcw.di.uminho.pt/2024/escola#A33186> rdf:type owl:Aluno ,
@@ -2872,10 +2072,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Oboé .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38219
 <http://rpcw.di.uminho.pt/2024/escola#A38219> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2884,10 +2080,6 @@
                                              :hasCurso :CS18 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Tuba .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A29631
 <http://rpcw.di.uminho.pt/2024/escola#A29631> rdf:type owl:Aluno ,
@@ -2898,10 +2090,6 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39747
 <http://rpcw.di.uminho.pt/2024/escola#A39747> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2910,10 +2098,6 @@
                                              :hasCurso :CS10 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Oboé .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33188
 <http://rpcw.di.uminho.pt/2024/escola#A33188> rdf:type owl:Aluno ,
@@ -2924,10 +2108,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Trombone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38172
 <http://rpcw.di.uminho.pt/2024/escola#A38172> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2936,10 +2116,6 @@
                                              :hasCurso :CB1 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Clarinete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38168
 <http://rpcw.di.uminho.pt/2024/escola#A38168> rdf:type owl:Aluno ,
@@ -2950,10 +2126,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38254
 <http://rpcw.di.uminho.pt/2024/escola#A38254> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2962,10 +2134,6 @@
                                              :hasCurso :CB16 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Trompa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30219
 <http://rpcw.di.uminho.pt/2024/escola#A30219> rdf:type owl:Aluno ,
@@ -2976,10 +2144,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Eufónio .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35348
 <http://rpcw.di.uminho.pt/2024/escola#A35348> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -2988,10 +2152,6 @@
                                              :hasCurso :CS8 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Guitarra .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A27637
 <http://rpcw.di.uminho.pt/2024/escola#A27637> rdf:type owl:Aluno ,
@@ -3002,10 +2162,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Tuba .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A29004
 <http://rpcw.di.uminho.pt/2024/escola#A29004> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3014,10 +2170,6 @@
                                              :hasCurso :CB1 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Clarinete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35349
 <http://rpcw.di.uminho.pt/2024/escola#A35349> rdf:type owl:Aluno ,
@@ -3028,10 +2180,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35350
 <http://rpcw.di.uminho.pt/2024/escola#A35350> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3040,10 +2188,6 @@
                                              :hasCurso :CB22 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39406
 <http://rpcw.di.uminho.pt/2024/escola#A39406> rdf:type owl:Aluno ,
@@ -3054,10 +2198,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A29011
 <http://rpcw.di.uminho.pt/2024/escola#A29011> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3066,10 +2206,6 @@
                                              :hasCurso :CB2 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Contrabaixo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38178
 <http://rpcw.di.uminho.pt/2024/escola#A38178> rdf:type owl:Aluno ,
@@ -3080,10 +2216,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Contrabaixo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38152
 <http://rpcw.di.uminho.pt/2024/escola#A38152> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3092,10 +2224,6 @@
                                              :hasCurso :CS16 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Trompa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38179
 <http://rpcw.di.uminho.pt/2024/escola#A38179> rdf:type owl:Aluno ,
@@ -3106,10 +2234,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Trombone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A22685
 <http://rpcw.di.uminho.pt/2024/escola#A22685> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3118,10 +2242,6 @@
                                              :hasCurso :CS12 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Percussão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A22688
 <http://rpcw.di.uminho.pt/2024/escola#A22688> rdf:type owl:Aluno ,
@@ -3132,10 +2252,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36864
 <http://rpcw.di.uminho.pt/2024/escola#A36864> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3144,10 +2260,6 @@
                                              :hasCurso :CS11 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Orgão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38184
 <http://rpcw.di.uminho.pt/2024/escola#A38184> rdf:type owl:Aluno ,
@@ -3158,10 +2270,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Fliscorne .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A12753
 <http://rpcw.di.uminho.pt/2024/escola#A12753> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3170,10 +2278,6 @@
                                              :hasCurso :CB16 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Trompa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38161
 <http://rpcw.di.uminho.pt/2024/escola#A38161> rdf:type owl:Aluno ,
@@ -3184,10 +2288,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Eufónio .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38171
 <http://rpcw.di.uminho.pt/2024/escola#A38171> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3196,10 +2296,6 @@
                                              :hasCurso :CS22 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38194
 <http://rpcw.di.uminho.pt/2024/escola#A38194> rdf:type owl:Aluno ,
@@ -3210,10 +2306,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Orgão .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A23544
 <http://rpcw.di.uminho.pt/2024/escola#A23544> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3222,10 +2314,6 @@
                                              :hasCurso :CB3 ;
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Corne_Inglês .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A29048
 <http://rpcw.di.uminho.pt/2024/escola#A29048> rdf:type owl:Aluno ,
@@ -3236,10 +2324,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Contrabaixo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36454
 <http://rpcw.di.uminho.pt/2024/escola#A36454> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3248,10 +2332,6 @@
                                              :hasCurso :CB15 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Trombone .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35352
 <http://rpcw.di.uminho.pt/2024/escola#A35352> rdf:type owl:Aluno ,
@@ -3262,10 +2342,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38217
 <http://rpcw.di.uminho.pt/2024/escola#A38217> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3274,10 +2350,6 @@
                                              :hasCurso :CB8 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Guitarra .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38209
 <http://rpcw.di.uminho.pt/2024/escola#A38209> rdf:type owl:Aluno ,
@@ -3288,10 +2360,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Trompete .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30226
 <http://rpcw.di.uminho.pt/2024/escola#A30226> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3300,10 +2368,6 @@
                                              :hasCurso :CS3 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Corne_Inglês .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38221
 <http://rpcw.di.uminho.pt/2024/escola#A38221> rdf:type owl:Aluno ,
@@ -3314,10 +2378,6 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Piano .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A21432
 <http://rpcw.di.uminho.pt/2024/escola#A21432> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3326,10 +2386,6 @@
                                              :hasCurso :CS9 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Harpa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39342
 <http://rpcw.di.uminho.pt/2024/escola#A39342> rdf:type owl:Aluno ,
@@ -3340,10 +2396,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Bandolim .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A32608
 <http://rpcw.di.uminho.pt/2024/escola#A32608> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3352,10 +2404,6 @@
                                              :hasCurso :CB19 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Violoncelo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33195
 <http://rpcw.di.uminho.pt/2024/escola#A33195> rdf:type owl:Aluno ,
@@ -3366,10 +2414,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Trompa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A22695
 <http://rpcw.di.uminho.pt/2024/escola#A22695> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3378,10 +2422,6 @@
                                              :hasCurso :CS5 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Fagote .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38216
 <http://rpcw.di.uminho.pt/2024/escola#A38216> rdf:type owl:Aluno ,
@@ -3392,10 +2432,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Piano .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33196
 <http://rpcw.di.uminho.pt/2024/escola#A33196> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3404,10 +2440,6 @@
                                              :hasCurso :CS8 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Guitarra .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33420
 <http://rpcw.di.uminho.pt/2024/escola#A33420> rdf:type owl:Aluno ,
@@ -3418,10 +2450,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38195
 <http://rpcw.di.uminho.pt/2024/escola#A38195> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3430,10 +2458,6 @@
                                              :hasCurso :CS12 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Percussão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33727
 <http://rpcw.di.uminho.pt/2024/escola#A33727> rdf:type owl:Aluno ,
@@ -3444,10 +2468,6 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33127
 <http://rpcw.di.uminho.pt/2024/escola#A33127> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3456,10 +2476,6 @@
                                              :hasCurso :CB19 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Violoncelo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A24784
 <http://rpcw.di.uminho.pt/2024/escola#A24784> rdf:type owl:Aluno ,
@@ -3470,10 +2486,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Trompete .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38208
 <http://rpcw.di.uminho.pt/2024/escola#A38208> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3482,10 +2494,6 @@
                                              :hasCurso :CB1 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Clarinete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38203
 <http://rpcw.di.uminho.pt/2024/escola#A38203> rdf:type owl:Aluno ,
@@ -3496,10 +2504,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A15619
 <http://rpcw.di.uminho.pt/2024/escola#A15619> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3508,10 +2512,6 @@
                                              :hasCurso :CS2 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Contrabaixo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35355
 <http://rpcw.di.uminho.pt/2024/escola#A35355> rdf:type owl:Aluno ,
@@ -3522,10 +2522,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Trompa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33437
 <http://rpcw.di.uminho.pt/2024/escola#A33437> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3534,10 +2530,6 @@
                                              :hasCurso :CB22 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A22701
 <http://rpcw.di.uminho.pt/2024/escola#A22701> rdf:type owl:Aluno ,
@@ -3548,10 +2540,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A27645
 <http://rpcw.di.uminho.pt/2024/escola#A27645> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3560,10 +2548,6 @@
                                              :hasCurso :CB3 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Corne_Inglês .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A29282
 <http://rpcw.di.uminho.pt/2024/escola#A29282> rdf:type owl:Aluno ,
@@ -3574,10 +2558,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Eufónio .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38120
 <http://rpcw.di.uminho.pt/2024/escola#A38120> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3586,10 +2566,6 @@
                                              :hasCurso :CS11 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Orgão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A14539
 <http://rpcw.di.uminho.pt/2024/escola#A14539> rdf:type owl:Aluno ,
@@ -3600,10 +2576,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Trompa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33280
 <http://rpcw.di.uminho.pt/2024/escola#A33280> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3612,10 +2584,6 @@
                                              :hasCurso :CB14 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Saxofone .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A34508
 <http://rpcw.di.uminho.pt/2024/escola#A34508> rdf:type owl:Aluno ,
@@ -3626,10 +2594,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A27577
 <http://rpcw.di.uminho.pt/2024/escola#A27577> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3638,10 +2602,6 @@
                                              :hasCurso :CB11 ;
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Orgão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39938
 <http://rpcw.di.uminho.pt/2024/escola#A39938> rdf:type owl:Aluno ,
@@ -3652,10 +2612,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33204
 <http://rpcw.di.uminho.pt/2024/escola#A33204> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3664,10 +2620,6 @@
                                              :hasCurso :CS8 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Guitarra .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38122
 <http://rpcw.di.uminho.pt/2024/escola#A38122> rdf:type owl:Aluno ,
@@ -3678,10 +2630,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Violoncelo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35357
 <http://rpcw.di.uminho.pt/2024/escola#A35357> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3690,10 +2638,6 @@
                                              :hasCurso :CS2 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Contrabaixo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30238
 <http://rpcw.di.uminho.pt/2024/escola#A30238> rdf:type owl:Aluno ,
@@ -3704,10 +2648,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39407
 <http://rpcw.di.uminho.pt/2024/escola#A39407> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3716,10 +2656,6 @@
                                              :hasCurso :CS10 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Oboé .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33209
 <http://rpcw.di.uminho.pt/2024/escola#A33209> rdf:type owl:Aluno ,
@@ -3730,10 +2666,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Clarinete .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36476
 <http://rpcw.di.uminho.pt/2024/escola#A36476> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3742,10 +2674,6 @@
                                              :hasCurso :CB1 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Clarinete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35360
 <http://rpcw.di.uminho.pt/2024/escola#A35360> rdf:type owl:Aluno ,
@@ -3756,10 +2684,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Violino .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A21711
 <http://rpcw.di.uminho.pt/2024/escola#A21711> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3768,10 +2692,6 @@
                                              :hasCurso :CB21 ;
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Viola_de_Arco .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A32652
 <http://rpcw.di.uminho.pt/2024/escola#A32652> rdf:type owl:Aluno ,
@@ -3782,10 +2702,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Trombone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36969
 <http://rpcw.di.uminho.pt/2024/escola#A36969> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3794,10 +2710,6 @@
                                              :hasCurso :CS17 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Trompete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33213
 <http://rpcw.di.uminho.pt/2024/escola#A33213> rdf:type owl:Aluno ,
@@ -3808,10 +2720,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30241
 <http://rpcw.di.uminho.pt/2024/escola#A30241> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3820,10 +2728,6 @@
                                              :hasCurso :CB6 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Flauta .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33214
 <http://rpcw.di.uminho.pt/2024/escola#A33214> rdf:type owl:Aluno ,
@@ -3834,10 +2738,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38116
 <http://rpcw.di.uminho.pt/2024/escola#A38116> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3846,10 +2746,6 @@
                                              :hasCurso :CS16 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Trompa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35144
 <http://rpcw.di.uminho.pt/2024/escola#A35144> rdf:type owl:Aluno ,
@@ -3860,10 +2756,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Trompete .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38118
 <http://rpcw.di.uminho.pt/2024/escola#A38118> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3872,10 +2764,6 @@
                                              :hasCurso :CB1 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Clarinete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A27658
 <http://rpcw.di.uminho.pt/2024/escola#A27658> rdf:type owl:Aluno ,
@@ -3886,10 +2774,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Corne_Inglês .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38159
 <http://rpcw.di.uminho.pt/2024/escola#A38159> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3898,10 +2782,6 @@
                                              :hasCurso :CS1 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Clarinete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35363
 <http://rpcw.di.uminho.pt/2024/escola#A35363> rdf:type owl:Aluno ,
@@ -3912,10 +2792,6 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Orgão .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A25383
 <http://rpcw.di.uminho.pt/2024/escola#A25383> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3924,10 +2800,6 @@
                                              :hasCurso :CB12 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Percussão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35364
 <http://rpcw.di.uminho.pt/2024/escola#A35364> rdf:type owl:Aluno ,
@@ -3938,10 +2810,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Fliscorne .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33524
 <http://rpcw.di.uminho.pt/2024/escola#A33524> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3950,10 +2818,6 @@
                                              :hasCurso :CS13 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Piano .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35855
 <http://rpcw.di.uminho.pt/2024/escola#A35855> rdf:type owl:Aluno ,
@@ -3964,10 +2828,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38147
 <http://rpcw.di.uminho.pt/2024/escola#A38147> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -3976,10 +2836,6 @@
                                              :hasCurso :CB19 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Violoncelo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33281
 <http://rpcw.di.uminho.pt/2024/escola#A33281> rdf:type owl:Aluno ,
@@ -3990,10 +2846,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Bandolim .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30243
 <http://rpcw.di.uminho.pt/2024/escola#A30243> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4002,10 +2854,6 @@
                                              :hasCurso :CB15 ;
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Trombone .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38149
 <http://rpcw.di.uminho.pt/2024/escola#A38149> rdf:type owl:Aluno ,
@@ -4016,10 +2864,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38160
 <http://rpcw.di.uminho.pt/2024/escola#A38160> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4028,10 +2872,6 @@
                                              :hasCurso :CS17 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Trompete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33082
 <http://rpcw.di.uminho.pt/2024/escola#A33082> rdf:type owl:Aluno ,
@@ -4042,10 +2882,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Violino .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38154
 <http://rpcw.di.uminho.pt/2024/escola#A38154> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4054,10 +2890,6 @@
                                              :hasCurso :CB2 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Contrabaixo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38158
 <http://rpcw.di.uminho.pt/2024/escola#A38158> rdf:type owl:Aluno ,
@@ -4068,10 +2900,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30015
 <http://rpcw.di.uminho.pt/2024/escola#A30015> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4080,10 +2908,6 @@
                                              :hasCurso :CS11 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Orgão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39509
 <http://rpcw.di.uminho.pt/2024/escola#A39509> rdf:type owl:Aluno ,
@@ -4094,10 +2918,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Oboé .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38153
 <http://rpcw.di.uminho.pt/2024/escola#A38153> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4106,10 +2926,6 @@
                                              :hasCurso :CB7 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Fliscorne .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38151
 <http://rpcw.di.uminho.pt/2024/escola#A38151> rdf:type owl:Aluno ,
@@ -4120,10 +2936,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Orgão .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38129
 <http://rpcw.di.uminho.pt/2024/escola#A38129> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4132,10 +2944,6 @@
                                              :hasCurso :CS11 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Orgão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33222
 <http://rpcw.di.uminho.pt/2024/escola#A33222> rdf:type owl:Aluno ,
@@ -4146,10 +2954,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Eufónio .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38130
 <http://rpcw.di.uminho.pt/2024/escola#A38130> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4158,10 +2962,6 @@
                                              :hasCurso :CS9 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Harpa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A34435
 <http://rpcw.di.uminho.pt/2024/escola#A34435> rdf:type owl:Aluno ,
@@ -4172,10 +2972,6 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Tuba .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A19550
 <http://rpcw.di.uminho.pt/2024/escola#A19550> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4184,10 +2980,6 @@
                                              :hasCurso :CB20 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Violino .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35366
 <http://rpcw.di.uminho.pt/2024/escola#A35366> rdf:type owl:Aluno ,
@@ -4198,10 +2990,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A22721
 <http://rpcw.di.uminho.pt/2024/escola#A22721> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4210,10 +2998,6 @@
                                              :hasCurso :CS22 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30254
 <http://rpcw.di.uminho.pt/2024/escola#A30254> rdf:type owl:Aluno ,
@@ -4224,10 +3008,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Violino .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A18770
 <http://rpcw.di.uminho.pt/2024/escola#A18770> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4236,10 +3016,6 @@
                                              :hasCurso :CS14 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Saxofone .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38141
 <http://rpcw.di.uminho.pt/2024/escola#A38141> rdf:type owl:Aluno ,
@@ -4250,10 +3026,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Violoncelo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38200
 <http://rpcw.di.uminho.pt/2024/escola#A38200> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4262,10 +3034,6 @@
                                              :hasCurso :CS20 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Violino .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36764
 <http://rpcw.di.uminho.pt/2024/escola#A36764> rdf:type owl:Aluno ,
@@ -4276,10 +3044,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Contrabaixo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38135
 <http://rpcw.di.uminho.pt/2024/escola#A38135> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4288,10 +3052,6 @@
                                              :hasCurso :CB20 ;
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Violino .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39944
 <http://rpcw.di.uminho.pt/2024/escola#A39944> rdf:type owl:Aluno ,
@@ -4302,10 +3062,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38148
 <http://rpcw.di.uminho.pt/2024/escola#A38148> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4314,10 +3070,6 @@
                                              :hasCurso :CB4 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Eufónio .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33228
 <http://rpcw.di.uminho.pt/2024/escola#A33228> rdf:type owl:Aluno ,
@@ -4328,10 +3080,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Trompa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38146
 <http://rpcw.di.uminho.pt/2024/escola#A38146> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4340,10 +3088,6 @@
                                              :hasCurso :CB18 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Tuba .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38908
 <http://rpcw.di.uminho.pt/2024/escola#A38908> rdf:type owl:Aluno ,
@@ -4354,10 +3098,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35371
 <http://rpcw.di.uminho.pt/2024/escola#A35371> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4366,10 +3106,6 @@
                                              :hasCurso :CB9 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Harpa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A24875
 <http://rpcw.di.uminho.pt/2024/escola#A24875> rdf:type owl:Aluno ,
@@ -4380,10 +3116,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Violoncelo .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A37029
 <http://rpcw.di.uminho.pt/2024/escola#A37029> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4392,10 +3124,6 @@
                                              :hasCurso :CB22 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33229
 <http://rpcw.di.uminho.pt/2024/escola#A33229> rdf:type owl:Aluno ,
@@ -4406,10 +3134,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Eufónio .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38119
 <http://rpcw.di.uminho.pt/2024/escola#A38119> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4418,10 +3142,6 @@
                                              :hasCurso :CS5 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Fagote .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A24876
 <http://rpcw.di.uminho.pt/2024/escola#A24876> rdf:type owl:Aluno ,
@@ -4432,10 +3152,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Trompa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A29253
 <http://rpcw.di.uminho.pt/2024/escola#A29253> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4444,10 +3160,6 @@
                                              :hasCurso :CB9 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Harpa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A25868
 <http://rpcw.di.uminho.pt/2024/escola#A25868> rdf:type owl:Aluno ,
@@ -4458,10 +3170,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A28735
 <http://rpcw.di.uminho.pt/2024/escola#A28735> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4470,10 +3178,6 @@
                                              :hasCurso :CS4 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Eufónio .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A27673
 <http://rpcw.di.uminho.pt/2024/escola#A27673> rdf:type owl:Aluno ,
@@ -4484,10 +3188,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Clarinete .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35372
 <http://rpcw.di.uminho.pt/2024/escola#A35372> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4496,10 +3196,6 @@
                                              :hasCurso :CB8 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Guitarra .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33234
 <http://rpcw.di.uminho.pt/2024/escola#A33234> rdf:type owl:Aluno ,
@@ -4510,10 +3206,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Eufónio .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36765
 <http://rpcw.di.uminho.pt/2024/escola#A36765> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4522,10 +3214,6 @@
                                              :hasCurso :CB9 ;
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Harpa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38173
 <http://rpcw.di.uminho.pt/2024/escola#A38173> rdf:type owl:Aluno ,
@@ -4536,10 +3224,6 @@
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Orgão .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38183
 <http://rpcw.di.uminho.pt/2024/escola#A38183> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4548,10 +3232,6 @@
                                              :hasCurso :CB10 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Oboé .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33235
 <http://rpcw.di.uminho.pt/2024/escola#A33235> rdf:type owl:Aluno ,
@@ -4562,10 +3242,6 @@
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Saxofone .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39343
 <http://rpcw.di.uminho.pt/2024/escola#A39343> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4574,10 +3250,6 @@
                                              :hasCurso :CS19 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Violoncelo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39410
 <http://rpcw.di.uminho.pt/2024/escola#A39410> rdf:type owl:Aluno ,
@@ -4588,10 +3260,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Percussão .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35374
 <http://rpcw.di.uminho.pt/2024/escola#A35374> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4600,10 +3268,6 @@
                                              :hasCurso :CB2 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Contrabaixo .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A24885
 <http://rpcw.di.uminho.pt/2024/escola#A24885> rdf:type owl:Aluno ,
@@ -4614,10 +3278,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Harpa .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38177
 <http://rpcw.di.uminho.pt/2024/escola#A38177> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4626,10 +3286,6 @@
                                              :hasCurso :CB4 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Eufónio .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35375
 <http://rpcw.di.uminho.pt/2024/escola#A35375> rdf:type owl:Aluno ,
@@ -4640,10 +3296,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Violino .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38181
 <http://rpcw.di.uminho.pt/2024/escola#A38181> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4652,10 +3304,6 @@
                                              :hasCurso :CS13 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Piano .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33238
 <http://rpcw.di.uminho.pt/2024/escola#A33238> rdf:type owl:Aluno ,
@@ -4666,10 +3314,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Tuba .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35376
 <http://rpcw.di.uminho.pt/2024/escola#A35376> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4678,10 +3322,6 @@
                                              :hasCurso :CB21 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Viola_de_Arco .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38131
 <http://rpcw.di.uminho.pt/2024/escola#A38131> rdf:type owl:Aluno ,
@@ -4692,10 +3332,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33240
 <http://rpcw.di.uminho.pt/2024/escola#A33240> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4704,10 +3340,6 @@
                                              :hasCurso :CB21 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Viola_de_Arco .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38144
 <http://rpcw.di.uminho.pt/2024/escola#A38144> rdf:type owl:Aluno ,
@@ -4718,10 +3350,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Flauta .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38145
 <http://rpcw.di.uminho.pt/2024/escola#A38145> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4730,10 +3358,6 @@
                                              :hasCurso :CS12 ;
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Percussão .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A29254
 <http://rpcw.di.uminho.pt/2024/escola#A29254> rdf:type owl:Aluno ,
@@ -4744,10 +3368,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Guitarra .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35418
 <http://rpcw.di.uminho.pt/2024/escola#A35418> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4756,10 +3376,6 @@
                                              :hasCurso :CB22 ;
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38127
 <http://rpcw.di.uminho.pt/2024/escola#A38127> rdf:type owl:Aluno ,
@@ -4770,10 +3386,6 @@
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Fagote .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33282
 <http://rpcw.di.uminho.pt/2024/escola#A33282> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4782,10 +3394,6 @@
                                              :hasCurso :CB17 ;
                                              :hasAnoCurso :"2" ;
                                              :hasInstrumento :Trompete .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A30266
 <http://rpcw.di.uminho.pt/2024/escola#A30266> rdf:type owl:Aluno ,
@@ -4796,10 +3404,6 @@
                                              :hasAnoCurso :"7" ;
                                              :hasInstrumento :Oboé .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35377
 <http://rpcw.di.uminho.pt/2024/escola#A35377> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4808,10 +3412,6 @@
                                              :hasCurso :CB7 ;
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Fliscorne .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38192
 <http://rpcw.di.uminho.pt/2024/escola#A38192> rdf:type owl:Aluno ,
@@ -4822,10 +3422,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Clarinete .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A35378
 <http://rpcw.di.uminho.pt/2024/escola#A35378> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4834,10 +3430,6 @@
                                              :hasCurso :CB16 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Trompa .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A38182
 <http://rpcw.di.uminho.pt/2024/escola#A38182> rdf:type owl:Aluno ,
@@ -4848,10 +3440,6 @@
                                              :hasAnoCurso :"4" ;
                                              :hasInstrumento :Bandolim .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A36773
 <http://rpcw.di.uminho.pt/2024/escola#A36773> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4860,10 +3448,6 @@
                                              :hasCurso :CS22 ;
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Bandolim .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A39671
 <http://rpcw.di.uminho.pt/2024/escola#A39671> rdf:type owl:Aluno ,
@@ -4874,10 +3458,6 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Piano .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A27648
 <http://rpcw.di.uminho.pt/2024/escola#A27648> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4886,10 +3466,6 @@
                                              :hasCurso :CB4 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Eufónio .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708A27620
 <http://rpcw.di.uminho.pt/2024/escola#A27620> rdf:type owl:Aluno ,
@@ -4900,10 +3476,6 @@
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Viola_de_Arco .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A33199
 <http://rpcw.di.uminho.pt/2024/escola#A33199> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4912,10 +3484,6 @@
                                              :hasCurso :CB10 ;
                                              :hasAnoCurso :"1" ;
                                              :hasInstrumento :Oboé .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708AE-939
 <http://rpcw.di.uminho.pt/2024/escola#AE-939> rdf:type owl:Aluno ,
@@ -4926,10 +3494,6 @@
                                              :hasAnoCurso :"6" ;
                                              :hasInstrumento :Clarinete .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708AE-922
 <http://rpcw.di.uminho.pt/2024/escola#AE-922> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4938,10 +3502,6 @@
                                              :hasCurso :CS6 ;
                                              :hasAnoCurso :"8" ;
                                              :hasInstrumento :Flauta .
-
-
-
-
 
 ###  http://rpcw.di.uminho.pt/2024/escola#708AE-907
 <http://rpcw.di.uminho.pt/2024/escola#AE-907> rdf:type owl:Aluno ,
@@ -4952,10 +3512,6 @@
                                              :hasAnoCurso :"3" ;
                                              :hasInstrumento :Fliscorne .
 
-
-
-
-
 ###  http://rpcw.di.uminho.pt/2024/escola#708A4140
 <http://rpcw.di.uminho.pt/2024/escola#A4140> rdf:type owl:Aluno ,
                                                       :Aluno ;
@@ -4964,7 +3520,3 @@
                                              :hasCurso :CB14 ;
                                              :hasAnoCurso :"5" ;
                                              :hasInstrumento :Saxofone .
-
-
-
-
