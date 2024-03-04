@@ -12,6 +12,17 @@ def format_space(ppt):
 ttl=""
 
 for corredor in bd["alunos"]:
+    
+    ttl += f"""
+###  http://rpcw.di.uminho.pt/2024/escola#708{corredor['id']}
+<http://rpcw.di.uminho.pt/2024/escola#{corredor['id']}> rdf:type owl:Aluno ,
+                                                      :Aluno ;
+                                             :hasNome :"{format_space(corredor['nome'])}" ;
+                                             :hasDataNasc :"{format_space(corredor['dataNasc'])}" ;
+                                             :hasCurso :{format_space(corredor['curso'])} ;
+                                             :hasAnoCurso :"{format_space(str(corredor['anoCurso']))}" ;
+                                             :hasInstrumento :{format_space(corredor['instrumento'])} .
+"""
     properties = {
         #'Nome': corredor['nome'],
         #'DataNascimento': corredor['dataNasc'],
@@ -32,22 +43,7 @@ for corredor in bd["alunos"]:
 """
                 individuals.add(prop_value)
                 
-    
-    ttl += f"""
-###  http://rpcw.di.uminho.pt/2024/escola#708{corredor['id']}
-<http://rpcw.di.uminho.pt/2024/escola#{corredor['id']}> rdf:type owl:Aluno ,
-                                                      :Aluno ;
-                                             :hasNome :"{format_space(corredor['nome'])}" ;
-                                             :hasDataNasc :"{format_space(corredor['dataNasc'])}" ;
-                                             :hasCurso :{format_space(corredor['curso'])} ;
-                                             :hasAnoCurso :"{format_space(str(corredor['anoCurso']))}" ;
-                                             :hasInstrumento :{format_space(corredor['instrumento'])} .
-
-
-
-
-"""
-
+                
 #for element in individuals:
 #    print(element)
 
@@ -59,3 +55,4 @@ print(ttl)
 with open('out.ttl', 'w') as file:
     # Write to the file (this will overwrite existing content)
     file.write(ttl)
+
