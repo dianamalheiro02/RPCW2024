@@ -1,0 +1,38 @@
+-------- a)
+PREFIX : <http://rpcw.di.uminho.pt/2024/mapa#>
+
+SELECT ?city
+WHERE {
+  ?city :emDistrito <http://rpcw.di.uminho.pt/2024/mapa#Braga> .
+}
+
+
+-------- b)
+PREFIX : <http://rpcw.di.uminho.pt/2024/mapa#>
+
+SELECT ?district (COUNT(?city) AS ?cityCount)
+WHERE {
+  ?city :emDistrito ?district .
+}
+GROUP BY ?district
+
+
+-------- c)
+PREFIX : <http://rpcw.di.uminho.pt/2024/mapa#>
+
+SELECT (COUNT(?city) AS ?cityCount)
+WHERE {
+  ?city :emDistrito <http://rpcw.di.uminho.pt/2024/mapa#Porto> .
+  ?s :origem ?city .
+}
+
+
+-------- d)
+PREFIX : <http://rpcw.di.uminho.pt/2024/mapa#>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?city
+WHERE {
+  ?city :populacao_cidade ?pop .
+  FILTER (xsd:integer(?pop) > 200000)
+}
