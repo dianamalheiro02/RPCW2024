@@ -1,0 +1,39 @@
+    IMDb Movie Reviews: A dataset of movie reviews labeled as positive or negative 
+sentiment based on the review text.
+https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
+    Twitter Sentiment Analysis Dataset: A collection of tweets labeled with sentiment, 
+often classified as positive, negative, or neutral.
+https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment
+
+    Stanford Sentiment Treebank: This dataset provides sentiment labels for 
+phrases in movie reviews on a fine-grained scale.
+https://nlp.stanford.edu/sentiment/treebank.html
+
+Financial News Sentiment Analysis: Datasets focused on sentiment analysis 
+in financial news articles, often used for stock market prediction.
+https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news
+
+    MPQA Subjectivity Lexicon: This lexicon contains words labeled with subjectivity and 
+polarity information. It's often used in sentiment analysis and opinion mining tasks.
+https://mpqa.cs.pitt.edu/lexicons/subj_lexicon/
+
+    Bing Liu's Lexicon: Similar to the Opinion Lexicon, this lexicon contains a list 
+of words labeled as either positive or negative based on their sentiment polarity.
+https://juliasilge.github.io/tidytext/reference/sentiments.html
+
+
+    Sentiment140 on Kaggle
+https://www.kaggle.com/datasets/kazanova/sentiment140  
+
+    https://www.kaggle.com/datasets/charunisa/chatgpt-sentiment-analysis 
+(chatgpt sentiment analysis)
+
+    https://www.kaggle.com/datasets/augustop/portuguese-tweets-for-sentiment-analysis 
+(tweets portugueses sentiment analysis)
+
+    https://archive.ics.uci.edu/dataset/205/opinrank+review+dataset 
+(hotel e carros reviews)
+
+    https://s3.amazonaws.com/fast-ai-nlp/yelp_review_polarity_csv.tgz 
+(yelp reviews)
