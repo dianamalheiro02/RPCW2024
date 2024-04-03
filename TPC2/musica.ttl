@@ -1,510 +1,91 @@
-@prefix : <http://rpcw.di.uminho.pt/2024/musica/> .
+@prefix : <http://rpcw.di.uminho.pt/2024/2024/3/musica_correct/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://rpcw.di.uminho.pt/2024/musica/> .
+@base <http://rpcw.di.uminho.pt/2024/2024/3/musica_correct/> .
 
-<http://rpcw.di.uminho.pt/2024/musica> rdf:type owl:Ontology .
+<http://rpcw.di.uminho.pt/2024/2024/3/musica_correct> rdf:type owl:Ontology .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://rpcw.di.uminho.pt/2024/musica#hasAnoCurso
-:hasAnoCurso rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf :hasInfo ;
-             owl:inverseOf :isAnoCursoOff .
+###  http://rpcw.di.uminho.pt/2024/2024/3/musica_correct#ensina
+:ensina rdf:type owl:ObjectProperty ;
+        rdfs:domain :Curso ;
+        rdfs:range :Instrumento .
 
 
-###  http://rpcw.di.uminho.pt/2024/musica#hasClasses
-:hasClasses rdf:type owl:ObjectProperty ;
-            owl:inverseOf :isClassOff .
+###  http://rpcw.di.uminho.pt/2024/2024/3/musica_correct#estuda
+:estuda rdf:type owl:ObjectProperty ;
+        rdfs:domain :Aluno ;
+        rdfs:range :Curso .
 
 
-###  http://rpcw.di.uminho.pt/2024/musica#hasCurso
-:hasCurso rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf :hasClasses ;
-          owl:inverseOf :isCursoOff ;
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://rpcw.di.uminho.pt/2024/2024/3/musica_correct#anoCurso
+:anoCurso rdf:type owl:DatatypeProperty ;
           rdfs:domain :Aluno ;
-          rdfs:range :Curso .
+          rdfs:range xsd:int .
 
 
-###  http://rpcw.di.uminho.pt/2024/musica#hasDataNasc
-:hasDataNasc rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf :hasInfo ;
-             owl:inverseOf :isDataNascOff .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#hasInfo
-:hasInfo rdf:type owl:ObjectProperty ;
-         owl:inverseOf :isInfoOff .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#hasInstrumento
-:hasInstrumento rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf :hasClasses ;
-                owl:inverseOf :isInstrumentoOff ;
+###  http://rpcw.di.uminho.pt/2024/2024/3/musica_correct#dataNascimento
+:dataNascimento rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Aluno ;
-                rdfs:range :Instrumento .
+                rdfs:range xsd:string .
 
 
-###  http://rpcw.di.uminho.pt/2024/musica#hasNome
-:hasNome rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf :hasInfo ;
-         owl:inverseOf :isNomeOff .
+###  http://rpcw.di.uminho.pt/2024/2024/3/musica_correct#designação
+:designação rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Curso ;
+            rdfs:range xsd:string .
 
 
-###  http://rpcw.di.uminho.pt/2024/musica#isAnoCursoOff
-:isAnoCursoOff rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf :isInfoOff .
+###  http://rpcw.di.uminho.pt/2024/2024/3/musica_correct#duração
+:duração rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Curso ;
+         rdfs:range xsd:int .
 
 
-###  http://rpcw.di.uminho.pt/2024/musica#isClassOff
-:isClassOff rdf:type owl:ObjectProperty .
+###  http://rpcw.di.uminho.pt/2024/2024/3/musica_correct#nome_Aluno
+:nome_Aluno rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Aluno ;
+            rdfs:range xsd:string .
 
 
-###  http://rpcw.di.uminho.pt/2024/musica#isCursoOff
-:isCursoOff rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf :isClassOff .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#isDataNascOff
-:isDataNascOff rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf :isInfoOff .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#isInfoOff
-:isInfoOff rdf:type owl:ObjectProperty .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#isInstrumentoOff
-:isInstrumentoOff rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf :isClassOff .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#isNomeOff
-:isNomeOff rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf :isInfoOff .
+###  http://rpcw.di.uminho.pt/2024/2024/3/musica_correct#nome_Instrumento
+:nome_Instrumento rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Instrumento ;
+                  rdfs:range xsd:string .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://rpcw.di.uminho.pt/2024/musica#Aluno
+###  http://rpcw.di.uminho.pt/2024/2024/3/musica_correct#Aluno
 :Aluno rdf:type owl:Class ;
        rdfs:subClassOf [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasAnoCurso ;
-                         owl:someValuesFrom :AnoCurso
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasCurso ;
+                         owl:onProperty :estuda ;
                          owl:someValuesFrom :Curso
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasInstrumento ;
-                         owl:someValuesFrom :Instrumento
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasNome ;
-                         owl:someValuesFrom :Nome
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasCurso ;
-                         owl:allValuesFrom [ rdf:type owl:Class ;
-                                             owl:unionOf ( :CB
-                                                           :CS
-                                                         )
-                                           ]
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasInstrumento ;
-                         owl:allValuesFrom [ rdf:type owl:Class ;
-                                             owl:unionOf ( :CordasInstrumento
-                                                           :PercurssãoInstrumento
-                                                           :SoproInstrumento
-                                                         )
-                                           ]
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasDataNasc ;
-                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                         owl:onClass :DataNasc
-                       ] ;
-       owl:disjointWith :Curso ,
-                        :Instrumento .
+                       ] .
 
 
-###  http://rpcw.di.uminho.pt/2024/musica#AnoCurso
-:AnoCurso rdf:type owl:Class ;
-          rdfs:subClassOf :Aluno .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#BandolimInstrumento
-:BandolimInstrumento rdf:type owl:Class ;
-                     rdfs:subClassOf :CordasInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB
-:CB rdf:type owl:Class ;
-    rdfs:subClassOf :Curso ;
-    owl:disjointWith :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB1
-:CB1 rdf:type owl:Class ;
-     rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB10
-:CB10 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB11
-:CB11 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB12
-:CB12 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB13
-:CB13 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB14
-:CB14 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB15
-:CB15 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB16
-:CB16 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB17
-:CB17 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB18
-:CB18 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB19
-:CB19 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB2
-:CB2 rdf:type owl:Class ;
-     rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB20
-:CB20 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB21
-:CB21 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB23
-:CB23 rdf:type owl:Class ;
-      rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB3
-:CB3 rdf:type owl:Class ;
-     rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB4
-:CB4 rdf:type owl:Class ;
-     rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB5
-:CB5 rdf:type owl:Class ;
-     rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB6
-:CB6 rdf:type owl:Class ;
-     rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB7
-:CB7 rdf:type owl:Class ;
-     rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB8
-:CB8 rdf:type owl:Class ;
-     rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CB9
-:CB9 rdf:type owl:Class ;
-     rdfs:subClassOf :CB .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS
-:CS rdf:type owl:Class ;
-    rdfs:subClassOf :Curso .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS1
-:CS1 rdf:type owl:Class ;
-     rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS10
-:CS10 rdf:type owl:Class ;
-      rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS12
-:CS12 rdf:type owl:Class ;
-      rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS13
-:CS13 rdf:type owl:Class ;
-      rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS14
-:CS14 rdf:type owl:Class ;
-      rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS15
-:CS15 rdf:type owl:Class ;
-      rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS16
-:CS16 rdf:type owl:Class ;
-      rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS17
-:CS17 rdf:type owl:Class ;
-      rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS18
-:CS18 rdf:type owl:Class ;
-      rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS19
-:CS19 rdf:type owl:Class ;
-      rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS2
-:CS2 rdf:type owl:Class ;
-     rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS20
-:CS20 rdf:type owl:Class ;
-      rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS21
-:CS21 rdf:type owl:Class ;
-      rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS3
-:CS3 rdf:type owl:Class ;
-     rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS4
-:CS4 rdf:type owl:Class ;
-     rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS5
-:CS5 rdf:type owl:Class ;
-     rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS6
-:CS6 rdf:type owl:Class ;
-     rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS7
-:CS7 rdf:type owl:Class ;
-     rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS8
-:CS8 rdf:type owl:Class ;
-     rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CS9
-:CS9 rdf:type owl:Class ;
-     rdfs:subClassOf :CS .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#ClarineteInstrumento
-:ClarineteInstrumento rdf:type owl:Class ;
-                      rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#ContrabaixoInstrumento
-:ContrabaixoInstrumento rdf:type owl:Class ;
-                        rdfs:subClassOf :CordasInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CordasInstrumento
-:CordasInstrumento rdf:type owl:Class ;
-                   rdfs:subClassOf :Instrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#CorneInglêsInstrumento
-:CorneInglêsInstrumento rdf:type owl:Class ;
-                        rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#Curso
+###  http://rpcw.di.uminho.pt/2024/2024/3/musica_correct#Curso
 :Curso rdf:type owl:Class ;
-       owl:disjointWith :Instrumento .
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :ensina ;
+                         owl:someValuesFrom :Instrumento
+                       ] .
 
 
-###  http://rpcw.di.uminho.pt/2024/musica#DataNasc
-:DataNasc rdf:type owl:Class ;
-          rdfs:subClassOf :Aluno .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#EufónioInstrumento
-:EufónioInstrumento rdf:type owl:Class ;
-                    rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#FagoteInstrumento
-:FagoteInstrumento rdf:type owl:Class ;
-                   rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#FlautaInstrumento
-:FlautaInstrumento rdf:type owl:Class ;
-                   rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#FliscorneInstrumento
-:FliscorneInstrumento rdf:type owl:Class ;
-                      rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#GuitarraInstrumento
-:GuitarraInstrumento rdf:type owl:Class ;
-                     rdfs:subClassOf :CordasInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#HarpaInstrumento
-:HarpaInstrumento rdf:type owl:Class ;
-                  rdfs:subClassOf :CordasInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#ID
-:ID rdf:type owl:Class ;
-    rdfs:subClassOf :Aluno .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#Instrumento
+###  http://rpcw.di.uminho.pt/2024/2024/3/musica_correct#Instrumento
 :Instrumento rdf:type owl:Class .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#Nome
-:Nome rdf:type owl:Class ;
-      rdfs:subClassOf :Aluno .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#OboéInstrumento
-:OboéInstrumento rdf:type owl:Class ;
-                 rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#OrgãoInstrumento
-:OrgãoInstrumento rdf:type owl:Class ;
-                  rdfs:subClassOf :CordasInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#PercurssãoInstrumento
-:PercurssãoInstrumento rdf:type owl:Class ;
-                       rdfs:subClassOf :Instrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#PianoInstrumento
-:PianoInstrumento rdf:type owl:Class ;
-                  rdfs:subClassOf :CordasInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#SaxofoneInstrumento
-:SaxofoneInstrumento rdf:type owl:Class ;
-                     rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#SoproInstrumento
-:SoproInstrumento rdf:type owl:Class ;
-                  rdfs:subClassOf :Instrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#TromboneInstrumento
-:TromboneInstrumento rdf:type owl:Class ;
-                     rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#TrompaInstrumento
-:TrompaInstrumento rdf:type owl:Class ;
-                   rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#TrompeteInstrumento
-:TrompeteInstrumento rdf:type owl:Class ;
-                     rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#TubaInstrumento
-:TubaInstrumento rdf:type owl:Class ;
-                 rdfs:subClassOf :SoproInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#ViolaArcoInstrumento
-:ViolaArcoInstrumento rdf:type owl:Class ;
-                      rdfs:subClassOf :CordasInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#ViolinoInstrumento
-:ViolinoInstrumento rdf:type owl:Class ;
-                    rdfs:subClassOf :CordasInstrumento .
-
-
-###  http://rpcw.di.uminho.pt/2024/musica#ViolonceloInstrumento
-:ViolonceloInstrumento rdf:type owl:Class ;
-                       rdfs:subClassOf :CordasInstrumento .
 
 
 #################################################################
@@ -512,92 +93,9 @@
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :BandolimInstrumento
-                :ContrabaixoInstrumento
-                :GuitarraInstrumento
-                :HarpaInstrumento
-                :OrgãoInstrumento
-                :PianoInstrumento
-                :ViolaArcoInstrumento
-                :ViolinoInstrumento
-                :ViolonceloInstrumento
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :CB1
-                :CB10
-                :CB11
-                :CB12
-                :CB13
-                :CB14
-                :CB15
-                :CB16
-                :CB17
-                :CB18
-                :CB19
-                :CB2
-                :CB20
-                :CB21
-                :CB23
-                :CB3
-                :CB4
-                :CB5
-                :CB6
-                :CB7
-                :CB8
-                :CB9
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :CS1
-                :CS10
-                :CS12
-                :CS13
-                :CS14
-                :CS15
-                :CS16
-                :CS17
-                :CS18
-                :CS19
-                :CS2
-                :CS20
-                :CS21
-                :CS3
-                :CS4
-                :CS5
-                :CS6
-                :CS7
-                :CS8
-                :CS9
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :ClarineteInstrumento
-                :CorneInglêsInstrumento
-                :EufónioInstrumento
-                :FagoteInstrumento
-                :FlautaInstrumento
-                :FliscorneInstrumento
-                :OboéInstrumento
-                :SaxofoneInstrumento
-                :TromboneInstrumento
-                :TrompaInstrumento
-                :TrompeteInstrumento
-                :TubaInstrumento
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :CordasInstrumento
-                :PercurssãoInstrumento
-                :SoproInstrumento
+  owl:members ( :Aluno
+                :Curso
+                :Instrumento
               )
 ] .
 
